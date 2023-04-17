@@ -1,0 +1,881 @@
+:root {
+    --kuning: #FFE161;
+    --biru-terang: #40B0BF;
+    --biru-gelap: #016790;
+    --hitam: #01141F;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+}
+
+.bg-biru-terang {
+    background: var(--biru-terang);
+}
+
+.bg-biru-gelap {
+    background: var(--biru-gelap);
+}
+
+.bg-kuning {
+    background: var(--kuning);
+}
+
+.bg-hitam {
+    background: var(--hitam);
+}
+
+.btn-kuning {
+    background: var(--kuning)
+}
+
+.btn-qris1 {
+    background: var(--kuning);
+}
+
+.btn-biru-gelap {
+    background: var(--biru-gelap);
+    color: white !important
+}
+
+.nav .nav-item .nav-link.active {
+    color: var(--biru-gelap)
+}
+
+#jumbo {
+    background: linear-gradient(135deg, var(--biru-terang), var(--biru-gelap));
+}
+
+#jumbo>.container-fluid {
+    height: 80vh;
+}
+
+/* CATEGORY */
+
+.category {
+    letter-spacing: 3px;
+}
+
+/*Harga Sementara*/
+.hargasementara {
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    background: var(--biru-terang);
+}
+
+.harga-nominal {
+    color: var(--kuning);
+    font-size: 70px
+}
+
+
+.ukuran-font {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.list-group-item {
+    border: 0;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.list-group-item:not(:last-child)::after {
+    content: "";
+    width: 50%;
+    height: 1px;
+    background: gray;
+    position: absolute;
+    bottom: 1px;
+    left: 25%
+}
+
+.btn {
+    border-radius: 30px;
+}
+
+/* SVGM */
+
+/*End harga sementara*/
+
+.navbar-brand img {
+    width: 140px;
+}
+
+.partner1 img {
+    width: 150px;
+    padding: 15px;
+}
+
+.Abfoll1 {
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.Abfoll2 {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.icon1 {
+    color: black;
+}
+
+.footer2 {
+    color: #ffffff
+}
+
+.soc-item {
+    color: white;
+}
+
+.pvc2 {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.h-100 {
+    height: 120% !important;
+}
+
+/* MODAL */
+
+.modal {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.header-qris {
+    background-color: var(--kuning)
+}
+
+.header-datadiri {
+    background-color: var(--biru-terang)
+}
+
+.user-move {
+    margin-left: 299px;
+}
+
+.server-move {
+    margin-left: 285px;
+}
+
+.username-move {
+    margin-left: 255px;
+}
+
+.harga-move {
+    margin-left: 287px;
+}
+
+.nohp-move {
+    margin-left: 283px;
+}
+
+.method-move {
+    margin-left: 274px;
+}
+
+/* CARD */
+
+.card {
+    background-color: #E6E6FA;
+    border-radius: 17px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.cardt {
+    margin-left: 55px;
+}
+
+.card1 {
+    background-color: #E6E6FA;
+    /* background-color: #C0C0C0; */
+}
+
+.card p {
+    font-size: 17px;
+    color: var(--hitam)
+}
+
+.card .deskripsi {
+    font-size: 13px;
+    color: gray;
+}
+
+.card .deskripsi1 {
+    font-size: 18px;
+    color: gray;
+}
+
+#number {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: var(--kuning);
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+}
+
+.nn {
+    margin-left: 14px;
+    margin-top: 4px;
+}
+
+/* DIAMONDS */
+.itemdm {
+    display: inline-block;
+    margin-left: 167px;
+    margin-top: -71px;
+
+}
+
+.itemdm1 {
+    display: inline-block;
+    margin-left: 152px;
+    margin-top: -91px;
+    width: 57px;
+    height: 57px;
+
+}
+
+.itemdm-ff {
+    display: inline-block;
+    margin-left: 127px;
+    margin-top: -75px;
+
+}
+
+.itemdm-codm {
+    display: inline-block;
+    margin-left: 146px;
+    margin-top: -55px;
+
+}
+
+
+#text {
+    width: 200px !important;
+}
+
+#item {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: white;
+    border-radius: 8px;
+    width: 245px;
+    margin: auto;
+    height: 78px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+#item1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: white;
+    border-radius: 8px;
+    width: 250px;
+    margin: auto;
+    height: 96px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+#item-ff {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: white;
+    border-radius: 8px;
+    width: 211px;
+    margin: auto;
+    height: 76px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+#item-pubg {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: white;
+    border-radius: 8px;
+    width: 189px;
+    margin: auto;
+    height: 76px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+#item-codm {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: white;
+    border-radius: 8px;
+    width: 241px;
+    margin: auto;
+    height: 97px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.card-ipay {
+    margin-top: 70px;
+    width: 500px;
+}
+
+/* caraousel */
+
+.item-caraousel img {
+    height: 300px;
+    width: auto;
+
+}
+
+/* .ceklisdm {
+    display: block;
+    top: -19px;
+    left: -1px;
+    transform: rotate(45deg);
+    right: -1px;
+    width: 20px;
+    height: 52px;
+    line-height: 52px;
+    background-color: var(--kuning);
+    position: absolute;
+    text-align: center;
+
+}
+
+.ceklisdm:before {
+    content: "";
+    position: absolute;
+    top: 20px;
+    left: 8px;
+    width: 5px;
+    height: 10px;
+    display: block;
+    border-width: 2.5px 2.5px;
+    border-style: solid solid;
+    border-image: initial;
+    border-top: var(--chakra-borders-none);
+    border-left: var(--chakra-borders-none);
+} */
+
+
+
+.linedmchange {
+    border: 3px solid var(--kuning);
+}
+
+.deskripsiitem {
+    font-size: 10px;
+}
+
+.deskripsiitem:after {
+    content: ",- ";
+}
+
+
+.hidenumber::-webkit-outer-spin-button,
+.hidenumber::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+/* content-taytay */
+
+.pembayaran {
+    background: linear-gradient(135deg, var(--biru-terang), var(--biru-gelap));
+    height: 2610px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+
+}
+
+.pembayaran-ff {
+    background: linear-gradient(135deg, var(--biru-terang), var(--biru-gelap));
+    height: 1437px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.pembayaran-genshin {
+    background: linear-gradient(135deg, var(--biru-terang), var(--biru-gelap));
+    height: 1797px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+
+}
+
+.pembayaran-pubg {
+    background: linear-gradient(135deg, var(--biru-terang), var(--biru-gelap));
+    height: 1950px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+
+}
+
+.pembayaran-codm {
+    background: linear-gradient(135deg, var(--biru-terang), var(--biru-gelap));
+    height: 1950px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+
+}
+
+.pembayaran-ipay {
+    background: linear-gradient(135deg, var(--biru-terang), var(--biru-gelap));
+    height: 2500px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.qrisbayar {
+    background: linear-gradient(135deg, var(--biru-terang), var(--biru-gelap));
+}
+
+.qris-card {
+    margin-top: 80px;
+    margin-bottom: 20px;
+    margin-left: 395px;
+}
+
+.cara-bayar {
+    margin-left: 117px;
+}
+
+.qris-gambar {
+    margin-left: 140px;
+}
+
+.invoice {
+    background: linear-gradient(135deg, var(--biru-terang), var(--biru-gelap));
+    height: 1000px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.card-invoice {
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+#check-server-genshin {
+    width: 130px;
+    text-align: center;
+}
+
+
+/* Dropdown */
+.dropdown-genshin {
+    width: 200px;
+}
+
+.contentuser {
+    margin-top: -36px;
+    font-size: 20px;
+    margin-left: 90px;
+}
+
+.contentuser1 {
+    margin-top: -44px;
+    font-size: 20px;
+    margin-left: 230px;
+}
+
+/* PAYMENT */
+
+.payment {
+    list-style-type: none;
+}
+
+.qrcode1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+
+#qrcode  {
+    width: 185px;
+    height: 185px;
+    margin-left: 138px;
+}
+
+.cara-bayar1 {
+    border-radius: 6px;
+    margin-bottom: 10px;
+    margin-left: 340px;
+}
+
+.logo-taytay2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+
+.form-pay {
+    border-radius: 6px;
+    margin: 10px 0;
+    cursor: pointer;
+    width: auto;
+    margin-left: -25px;
+}
+
+.form-pay-a {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    overflow: hidden;
+    min-height: 72px;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.linepay {
+    border: 3px solid var(--kuning);
+}
+
+.form-pay-a:hover {
+    text-decoration: none;
+}
+
+.logo-pay {
+
+    display: flex;
+    width: 65%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo-wrapper {
+
+    margin: 0;
+    padding: 15px 2px;
+    display: inline-flex;
+    flex-direction: column;
+    object-fit: cover;
+
+}
+
+.logo-wrapper img {
+    height: 45px;
+    padding-left: 15px;
+}
+
+.price-pay-container {
+    width: 34%;
+}
+
+.price-label {
+    padding-left: 10px;
+    font-size: 18px;
+    letter-spacing: .12px;
+    color: gray;
+}
+
+.price-info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.price-number {
+    text-align: left;
+    padding-left: 10px;
+    font-family: NotoSans-Bold, sans-serif;
+    color: var(--hitam);
+}
+
+.price-number:after {
+    content: ",-";
+}
+
+.label-checked-pay {
+    display: block;
+    top: -19px;
+    left: -1px;
+    transform: rotate(45deg);
+    right: -1px;
+    width: 20px;
+    height: 52px;
+    line-height: 52px;
+}
+
+.label-checked-pay {
+    background-color: var(--kuning);
+    position: absolute;
+    text-align: center;
+}
+
+.label-checked-pay::before {
+    top: 50px;
+    left: 8px;
+
+}
+
+.label-checked-pay:before {
+    content: "";
+    position: absolute;
+    top: 20px;
+    left: 8px;
+    width: 5px;
+    height: 10px;
+    display: block;
+    border-width: 2.5px 2.5px;
+    border-style: solid solid;
+    border-image: initial;
+    border-top: var(--chakra-borders-none);
+    border-left: var(--chakra-borders-none);
+}
+
+/* .active{
+    display: block;
+} */
+
+.button-buy {
+    margin-left: 380px;
+    width: 230px;
+    background-color: var(--biru-terang);
+}
+
+.check-button {
+    width: 230px;
+    background-color: var(--biru-terang);
+}
+
+/* form control */
+.form-control {
+    border-radius: 8px;
+}
+
+#footer{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+#messenger {
+    margin: 10px;
+}
+
+#messenger a {
+    background: blue;
+    padding: 10px;
+    border-radius: 100%;
+}
+
+
+
+/*media responsive*/
+
+@media (max-width: 768px) {
+    .soc-item1 {
+        text-align: left;
+    }
+
+    #item {
+        width: 172px;
+        height: 98px;
+    }
+
+    #item-ff {
+        width: 178px;
+        height: 78px;
+    }
+
+    #item p {
+        font-size: 16px;
+    }
+
+    #item h4 {
+        font-size: 7px;
+        margin-top: 20px;
+    }
+
+    #item img {
+        margin-top: -100px;
+        margin-left: 112px;
+        width: 60px;
+        height: 60px;
+    }
+
+    #item-codm {
+        width: 163px;
+    }
+
+    .itemdm-ff {
+        display: inline-block;
+        margin-left: 102px;
+        margin-top: -75px;
+    }
+
+    .itemdm-codm {
+        display: inline-block;
+        margin-left: 112px;
+        margin-top: -86px;
+    }
+
+    .logo-pay img {
+        width: 130px;
+        height: 40px;
+    }
+
+    .price-label {
+        margin-left: -40px !important;
+    }
+
+    .price-number {
+        margin-left: -40px !important;
+    }
+
+    .partner1 img {
+        width: 85px;
+        height: 49px;
+        padding: 7px;
+    }
+
+    .itemdm {
+        display: inline-block;
+    }
+
+    .dcard {
+        font-size: 25px;
+    }
+
+    .item .box h3 {
+        font-size: 15px !important;
+        font-weight: 500 !important;
+    }
+
+    .pembayaran {
+        height: 2940px;
+    }
+
+    .pembayaran-ff {
+        height: 2059px;
+    }
+
+    .button-buy {
+        margin-left: 170px;
+        width: 170px;
+    }
+
+    .check-button {
+        width: 185px;
+    }
+
+    .user-move {
+        margin-left: 155px;
+    }
+
+    .server-move {
+        margin-left: 139px;
+    }
+
+    .username-move {
+        margin-left: 110px;
+    }
+
+    .harga-move {
+        margin-left: 143px;
+    }
+
+    .nohp-move {
+        margin-left: 141px;
+    }
+
+    .method-move {
+        margin-left: 132px;
+    }
+
+    #check-server-genshin {
+        width: 91px;
+        text-align: center;
+    }
+
+    .itemdm1 {
+        width: 40px !important;
+        height: 40px !important;
+        margin-left: 110px;
+        margin-top: -84px;
+    }
+
+    #item1 {
+        width: 159px;
+        height: 111px;
+    }
+
+    .pembayaran-genshin {
+        height: 1884px;
+    }
+
+    .qris-gambar1 {
+        margin-left: -77px;
+    }
+
+    .qris-card {
+        margin-left: -6px;
+    }
+
+    .cara-bayar1 {
+        margin-left: 61px;
+    }
+
+    .cara-bayar {
+        border-radius: 6px
+    }
+
+    .cara-bayar1 {
+        border-radius: 6px;
+        margin-bottom: 10px;
+        margin-left: 184px;
+    }
+
+    .logo-taytay2 {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 8px;
+    }
+
+    .qrcode1 {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 8px;
+    }
+
+    .Abfoll1 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .Abfoll2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .text {
+        display: flex;
+        justify-content: center;
+    }
+
+    .pvc {
+        display: none;
+    }
+
+    #qrcode {
+        width: 240px;
+        height: 240px;
+        margin-left: 53px;
+    }
+
+}
+
+/* @media screen and (min-width: 576px) {
+    .card {
+        align-items: center;
+    }
+} */
